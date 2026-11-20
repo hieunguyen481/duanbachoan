@@ -27,7 +27,11 @@
 }
 
 * { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; scroll-padding-top: calc(var(--topbar-h) + 16px); }
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--topbar-h) + 16px);
+  scrollbar-gutter: stable; /* luôn chừa chỗ thanh cuộn: bố cục không lệch khi đổi giữa trang dài và trang ngắn */
+}
 body {
   margin: 0; background: var(--bg); color: var(--ink);
   font-family: var(--font); font-size: var(--s0); line-height: 1.7;
