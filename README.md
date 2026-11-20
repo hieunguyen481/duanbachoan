@@ -1,6 +1,9 @@
 # duanbachoan
 
-Trang web tĩnh (HTML/CSS/JS thuần), không cần build.
+Trang web tĩnh (HTML/CSS/JS thuần), không cần build. Đang chạy tại https://duanbachoan.pages.dev
+
+- **Hướng dẫn sử dụng, cập nhật, quay về bản cũ:** [HUONG-DAN.md](HUONG-DAN.md)
+- **Nhật ký phiên bản:** [CHANGELOG.md](CHANGELOG.md), phiên bản hiện tại ghi trong file `VERSION`
 
 - `index.html`: khung trang (thanh trên: logo, tìm kiếm, tài khoản; menu trái; nội dung phải)
 - `css/style.css`: giao diện (màu, chữ ở khối `:root`)

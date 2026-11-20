@@ -137,6 +137,8 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   background: var(--accent); border-radius: 2px;
 }
 
+.nav-version { margin: 2rem 0 0 .75rem; font-size: .75rem; color: var(--muted); }
+
 /* ---------- Nội dung ---------- */
 .page-title { font-size: var(--s3); line-height: 1.15; letter-spacing: -0.025em; font-weight: 700; margin: 0 0 .6rem; }
 .lead { font-size: var(--s1); color: var(--muted); margin: 0 0 2.25rem; max-width: 56ch; line-height: 1.6; }

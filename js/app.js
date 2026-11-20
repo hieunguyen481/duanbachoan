@@ -175,7 +175,7 @@
       return '<div class="nav-group"><h2>' + esc(g.title) + "</h2><ul>" + g.items.map(function (it) {
         return '<li><a class="nav-link" href="#/' + it.id + '" data-id="' + it.id + '">' + icon(it.icon) + "<span>" + esc(it.label) + "</span></a></li>";
       }).join("") + "</ul></div>";
-    }).join("");
+    }).join("") + (S.version ? '<p class="nav-version">Phiên bản ' + esc(S.version) + "</p>" : "");
   }
 
   function setCurrent(id) {

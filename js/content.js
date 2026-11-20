@@ -3,6 +3,7 @@
   Sửa chữ, thêm bài, thêm ảnh ở file này. Giao diện tự cập nhật theo.
 */
 window.SITE = {
+  version: "1.0.2",   // số phiên bản, tăng sau mỗi lần sửa (xem CHANGELOG.md)
   name: "Trang web của tôi",
   owner: "Bạn",
   email: "email-cua-ban@example.com",
