@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trang web của tôi</title>
+  <meta name="description" content="Trang web cá nhân.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Bỏ qua, tới nội dung</a>
+
+  <header class="topbar">
+    <button class="menu-toggle" id="menu-toggle" aria-controls="sidenav" aria-expanded="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <span class="sr-only">Mở menu</span>
+    </button>
+
+    <a class="logo" href="#/" aria-label="Về trang chủ">
+      <span class="logo-mark" aria-hidden="true"></span>
+      <span class="logo-text" id="site-name">Trang web của tôi</span>
+    </a>
+
+    <form class="search" role="search" id="search-form">
+      <label for="q" class="sr-only">Tìm kiếm</label>
+      <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" name="q" type="search" placeholder="Tìm kiếm" autocomplete="off">
+      <kbd aria-hidden="true">/</kbd>
+    </form>
+
+    <div class="account">
+      <button class="account-btn" id="account-btn" aria-haspopup="menu" aria-expanded="false" aria-controls="account-menu">
+        <span class="avatar" aria-hidden="true">B</span>
+        <span class="sr-only">Tài khoản</span>
+      </button>
+      <div class="account-menu" id="account-menu" role="menu" hidden>
+        <div class="account-who">
+          <strong>Bạn</strong>
+          <span>Chưa đăng nhập</span>
+        </div>
+        <a role="menuitem" href="#/tai-khoan">Hồ sơ của tôi</a>
+        <a role="menuitem" href="#/tai-khoan">Đăng nhập</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav class="sidenav" id="sidenav" aria-label="Menu chính"></nav>
+    <main id="main" class="content" tabindex="-1"></main>
+  </div>
+  <div class="scrim" id="scrim" hidden></div>
+
+  <script src="js/content.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
